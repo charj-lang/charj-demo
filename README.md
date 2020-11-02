@@ -3,7 +3,7 @@
 Hello, World
 
 ```go
-pkg examples
+package examples
 
 import fmt
 
@@ -15,16 +15,14 @@ default$main() {
 ## Struct
 
 ```go
-pkg charj
-
 struct Summary {
-  	member Name   : string
-	member FanIn  : int
-	member FanOut : int
+  	Name   : string
+	FanIn  : int
+	FanOut : int
 }
 
 struct Hello {
-    member summary : Summary
+    summary : Summary
 }
 ```
 
